@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(155, 175, 175);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.base{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.base td{
+    width: 70px;
+    height: 70px;
+}
+.base tr:nth-child(even)
+td:nth-child(odd),
+.base tr:nth-child(odd)
+td:nth-child(even){
+    background-color: black;
+}
+
+
